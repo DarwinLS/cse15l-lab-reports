@@ -4,12 +4,12 @@
 ![Image](CSE15L - SS3forLR2.png)
 (code for StringServer)
 
-![Image](CSE15L - SS3forLR1.png)
+![Image](CSE15L - SS1forLR2.png)
 * In the first screenshot, the handleRequest method in the Handler class is called
 * The url entered is taken as the argument for the URI parameter of the method, and the String str is a relevant field
 * In the first screenshot, the url path is /add-message which triggers the first if statement in handleRequest, and the query is split from the "=" into an "s" and another string "first try" into the String[] parameters array. That string (parameters[1]) is then concatenated to the String str after a new line using "\n" (before "", after "\nfirst try"). The String str is then returned.
 
-![Image](CSE15L - SS3forLR2.png)
+![Image](CSE15L - SS2forLR2.png)
 * In the second screenshot, the handleRequest method in the Handler class is called
 * The url entered is taken as the argument for the URI parameter of the method, and the String str is a relevant field
 * In the second screenshot, the url path is /add-message which triggers the first if statement in handleRequest, and the query is split from the "=" into an "s" and another string "second try" into the String[] parameters array. That string (parameters[1]) is then concatenated to the String str after a new line using "\n" (before "\nfirst try", after 
@@ -17,6 +17,7 @@
 
 ---
 **Part 2**
+
 **Using the averageWithoutLowest method in ArrayExamples:**
 
 Failure inducing input:
@@ -41,6 +42,7 @@ Symptom as output from running Junit tests:
 ![Image](CSE15L - SS4forLR2.png)
 
 The bug as before and after code:
+
 (before)
 ```java
 static double averageWithoutLowest(double[] arr) {

@@ -2,6 +2,7 @@
 **Part 1**
 
 ![Image](CSE15L - SS3forLR2.png)
+
 (code for StringServer)
 
 ![Image](CSE15L - SS1forLR2.png)
@@ -81,4 +82,5 @@ The bug was caused by the fact that the second for loop would reject all instanc
 
 ---
 **Part 3**
+
 Since the labs I have learned how to start a website locally as well as on the remote server. More than that, I have learned how to change the port when starting it, and how to make the website perform different actions depending on the path and queries in the url, none of which I knew how to do before.

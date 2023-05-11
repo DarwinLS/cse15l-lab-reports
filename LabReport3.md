@@ -3,6 +3,7 @@ This Lab Report is based on the command "find" in bash, using Windows syntax
 
 ---
 **First Use**
+
 Adding "-size" after the directory, then a numerical size preceeded by a + or - for less than or greater than, followed by a letter representing a unit of size such as M for megabytes, will search for all files either less than or greater than the provided size.
 
 (Example 1 using greater than 150 kilobytes)
@@ -13,6 +14,7 @@ Adding "-size" after the directory, then a numerical size preceeded by a + or - 
 
 ---
 **Second Use**
+
 Adding "-mtime" after the directory, then a number of days preceeded by a + or - for less than or greater than, followed by -print, will search for all files that have been edited either before or since the given number of days in the past.
 
 (Example 1 using since 7 days ago after I edited 3 of the files in technical/)
@@ -23,6 +25,7 @@ Adding "-mtime" after the directory, then a number of days preceeded by a + or -
 
 ---
 **Third Use**
+
 Adding "-empty" after the directory will search for files and directories that are empty
 
 (Example 1, considering that there are no empty directories or files in the current state of technical/)
@@ -33,6 +36,7 @@ Adding "-empty" after the directory will search for files and directories that a
 
 ---
 **Fourth Use**
+
 Adding "-not" before the condition will specifically exclude results that meet the condition
 
 (Example 1, considering that all the files in technical/plos/ are .txt files, besides the directory itself)

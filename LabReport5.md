@@ -62,4 +62,4 @@ To fix the bug, remove the spaces before and after the equals sign in the first 
 ---
 **Reflection**
 
-I've learned quite a bit this half a quarter. One of the most significant/memorable are how to create a basic autograder using a bash script with the necessary files. Another cool thing I learned was how to navigate files in VIM, though it wasn't the most fun.
+I've learned quite a bit this half a quarter. One of the most significant/memorable things is how to create a basic autograder using a bash script with the necessary files. Another cool thing I learned was how to navigate files in VIM, though it wasn't the most fun.

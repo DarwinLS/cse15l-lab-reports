@@ -5,13 +5,16 @@
 Title: Error when creating variable in a bash script used to run java file
 
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
+
 I am on a windows 11 desktop, using VSCode as my code editor
 
 Detail the symptom you're seeing. Be specific; include both what you're seeing and what you expected to see instead. Screenshots are great, copy-pasted terminal output is also great. Avoid saying “it doesn't work”.
+
 The script is supposed to compile and run the PosOrNeg.java file using a variable stored in the yourNumber variable in the bash script as a String argument, but for some reason storing the variable isnt working, instead saying it's an unrecognized command. I've attached a screenshot of my script.
 ![Image](CSE15L - SS1forLR5.png)
 
 Detail the failure-inducing input and context. That might mean any or all of the command you're running, a test case, command-line arguments, working directory, even the last few commands you ran. Do your best to provide as much context as you can.
+
 The failure inducing input is the command `bash JavaRunner.sh`, and it is using 1 as the variable in the script to use as an arg when running the java file. I haven't run any previous commands, and the working directory is the the directory containing the script and java files. 
 
 **TA Response**

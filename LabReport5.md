@@ -1,6 +1,9 @@
 # Lab Report 5
 
 **Student Initial Post**
+
+Title: Error when creating variable in a bash script used to run java file
+
 What environment are you using (computer, operating system, web browser, terminal/editor, and so on)?
 I am on a windows 11 desktop, using VSCode as my code editor
 
@@ -12,13 +15,16 @@ Detail the failure-inducing input and context. That might mean any or all of the
 The failure inducing input is the command `bash JavaRunner.sh`, and it is using 1 as the variable in the script to use as an arg when running the java file. I haven't run any previous commands, and the working directory is the the directory containing the script and java files. 
 
 **TA Response**
+
 If you pay close attention to a successful use of variables in a bash script, you will notice that there are no spaces between the variable name and the equals sign as well as the equals sign and the value to be assigned to the variable. Simple, but hard to notice. Unlike java, you cannot include spaces in those spots. Try removing the spaces, and see what happens.
 
 **Student Response**
+
 It worked after removing the spaces. I've attached a screenshot of the resulting output from running `bash JavaRunner.sh` with the change. The bug was indeed including spaces before and after the equals sign when creating the variable, as with spaces, the name of the variable was interpreted as a command.
 ![Image](CSE15L - SS2forLR5.png)
 
 **Information for Setup**
+
 The full file and directory structure needed:
 
 ![Image](CSE15L - SS3forLR5.png)
